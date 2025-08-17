@@ -2,31 +2,33 @@
 <br>
 
 ## 로그인
-<img width="1280" height="685" alt="로그인" src="https://github.com/user-attachments/assets/af8e2d02-fb58-4aab-a417-c167a2048ff6" />
+<img width="1280" height="685" alt="로그인" src="https://github.com/user-attachments/assets/0c43ffd9-4201-45bc-9f55-f0bd82f6fb8f" />
 
 ## 회원가입 / 정보 열람 / 게시글 생성
-<img width="1028" height="516" alt="회원가입_정보열람_게시글생성" src="https://github.com/user-attachments/assets/6ed225b2-cbfe-4c02-8954-548ea0d187cc" />
+<img width="1028" height="516" alt="회원가입_정보열람_게시글생성" src="https://github.com/user-attachments/assets/8f88d59c-5a91-409b-b2b9-252a5bb519ab" />
 
 ## 게시글 열람 및 수정
-<img width="780" height="467" alt="보드열람과_수정" src="https://github.com/user-attachments/assets/db4c60fe-0600-4cae-abd6-93707aa803f8" />
+<img width="780" height="467" alt="게시글열람과_수정" src="https://github.com/user-attachments/assets/04b10648-9b75-4626-ac4a-1c3980d9b257" />
 
 ## 게시글 리스트 (수정)
-<img width="893" height="454" alt="게시글리스트_열람" src="https://github.com/user-attachments/assets/55cabfb4-1cf7-407c-8b34-9411af0415d6" />
+<img width="893" height="454" alt="게시글리스트_열람" src="https://github.com/user-attachments/assets/cdc262d0-399a-4ab3-aa2e-bb9990899b88" />
 <br>
 
 ## 관리자 계정
 - ### 회원 차단 기능 <br>
-<img width="1028" height="470" alt="관리자_회원정보관리" src="https://github.com/user-attachments/assets/d1c49b61-cb75-47c0-b942-3732b7ec1a8e" /> <br>
+<img width="1028" height="470" alt="관리자_회원정보관리" src="https://github.com/user-attachments/assets/899a2a29-54e7-4013-985e-ef6640ffc8e2" />
+
 - ### 회원 정보 열람 및 수정 
-<img width="1021" height="395" alt="관리자_회원정보리스트" src="https://github.com/user-attachments/assets/13f594f2-052d-464d-9bab-cb866232429f" /> <br>
+<img width="1021" height="395" alt="관리자_회원정보리스트" src="https://github.com/user-attachments/assets/f3f262c5-5c01-4315-a0d4-ac9defe61927" />
+
 - ### 게시글 수정 및 차단 (관리자)
-<img width="812" height="474" alt="관리자_게시글관리" src="https://github.com/user-attachments/assets/d924ad63-c9be-4d37-afa3-d9a62b9aa132" />
+<img width="812" height="474" alt="관리자_게시글관리" src="https://github.com/user-attachments/assets/f35f6c60-3c9f-4293-ad4d-428909ca5b16" />
 
 ---
 
 ## 프로젝트 소개
 ---
-Spring Boot와 JPA를 활용하여 구현한 회원 및 게시글 관리 개인 프로젝트입니다. 웹 개발의 핵심 프레임워크인 Spring Boot의 구조를 익히고, ORM(Object-Relational Mapping) 기술인 JPA의 동작 원리를 직접 경험하며 이해를 높이고자 시작했습니다. 이 프로젝트는 사용자 인증(로그인/로그아웃), 회원 관리(CRUD), 게시글 관리(CRUD) 등 웹 애플리케이션의 필수적인 기능들을 포함하고 있습니다. 특히 관리자 계정을 통해 일반 사용자의 접근을 제어하고 게시글을 관리하는 기능을 구현하여 권한 관리의 기본 개념을 학습했습니다.
+현대적인 웹 서비스들이 어떻게 수많은 데이터를 효율적으로 관리하고 사용자에게 제공하는지 그 내부 구조가 궁금했습니다. 특히, 반복적인 SQL 작업을 줄여준다는 JPA(ORM) 기술이 실제 개발 환경에서 어떻게 객체 지향적으로 데이터를 다루는지 직접 확인하고 싶었습니다. 이러한 궁금증을 해결하고자, 모든 웹 애플리케이션의 기본이 되는 회원 및 게시글 관리 시스템을 Spring Boot와 JPA를 기반으로 직접 구현하며 그 동작 원리를 체득하게 되었습니다.
 
 🧰 기술 스택 <br>
 - **OS:** Windows
@@ -37,11 +39,11 @@ Spring Boot와 JPA를 활용하여 구현한 회원 및 게시글 관리 개인 
 
 ## 🔍 프로젝트 목표
 ---
-- Spring Boot 프레임워크의 동작 방식과 MVC(Model-View-Controller) 패턴 이해
-- JPA를 활용한 데이터베이스 연동 및 엔티티(Entity) 설계, 영속성 관리 실습
-- RESTful API 설계 및 HTTP 메서드(GET, POST, PUT, DELETE)를 이용한 CRUD 기능 구현
-- 사용자 세션 관리를 통한 로그인/로그아웃 기능 및 권한에 따른 접근 제어 로직 구현
-- Thymeleaf 템플릿 엔진을 이용한 동적 웹 페이지 렌더링 능력 강화
+- Spring Boot가 어떻게 독립적으로 실행되는 웹 애플리케이션을 빠르고 간결하게 구성하는지, 그 안에 녹아있는 **MVC 패턴의 원리**를 체득하고자 했습니다.
+- SQL 문을 직접 다루던 방식에서 벗어나, JPA를 통해 자바 객체만으로 데이터를 영속화하고 관리하는 **ORM의 새로운 개발 방식**을 이해하는 것을 목표로 했습니다.
+- 단순한 페이지 조회를 넘어, 사용자의 요청에 따라 데이터를 생성, 조회, 수정, 삭제(CRUD)하는 **동적인 웹 서비스**를 직접 만들어보고 싶었습니다.
+- 로그인 상태를 유지하고, 인증된 사용자에게만 특정 기능을 허용하는 세션 기반의 접근 제어 로직을 구현하며 **웹 보안의 기초**를 다지고자 했습니다.
+- 데이터를 서버에서 동적으로 HTML에 결합하여 사용자에게 보여주는 Thymeleaf와 같은 템플릿 엔진의 **렌더링 과정**을 경험하는 것을 목표로 했습니다.
 
 ## 📗 주요 기능
 ---
