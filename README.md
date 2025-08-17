@@ -1,4 +1,4 @@
-# Spring_JPA_Project# 📚Spring_JPA_Project
+# 📚Spring_JPA_Project
 <br>
 
 ## 로그인
